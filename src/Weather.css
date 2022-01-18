@@ -1,0 +1,88 @@
+.Weather {
+  color: #fff;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  padding: 0;
+}
+
+p {
+  text-transform: capitalize;
+}
+
+input {
+  background-color: #2c234d;
+}
+
+button.search {
+  display: inline;
+  border-radius: 15px;
+  border: 0;
+  padding: 10px 20px;
+  background-color: #ef5f9a;
+  color: #fff;
+}
+
+button.location {
+  display: inline;
+  border-radius: 15px;
+  border: 0;
+  padding: 10px 25px;
+  background-color: #9772f3;
+  color: #fff;
+}
+
+button:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.input_search {
+  display: inline;
+  padding: 5px;
+  margin-bottom: 15px;
+  width: 300px;
+  border-radius: 50px;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.date .conditions {
+  font-size: 12px;
+}
+
+.present-weather {
+  font-size: 100px;
+  text-align: center;
+}
+
+.weather-icon {
+  font-size: 30px;
+  text-align: right;
+}
+
+.temperature {
+  font-size: 60px;
+  font-weight: normal;
+  top: -34px;
+}
+
+.units {
+  position: relative;
+  top: -34px;
+}
+
+.celcius {
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+}
+.fahrenheit {
+  text-decoration: none;
+  color: #fff;
+}

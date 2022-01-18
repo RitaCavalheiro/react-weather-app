@@ -5,8 +5,8 @@ export default function Weather() {
   return (
     <div className="Weather">
       <form id="city-seach-form">
-        <div className="row">
-          <div className="col-5 search-box">
+        <div className="row m-3">
+          <div className="col-6 search-box">
             <input
               type="search"
               className="input_search"
@@ -26,7 +26,7 @@ export default function Weather() {
           </div>
         </div>
       </form>
-      <div className="row mt-3">
+      <div className="row m-3">
         <div className="col-4 date">
           <h2>Coimbra</h2>
           <p className="date">Friday, 14 jan </p>
