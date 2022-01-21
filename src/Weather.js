@@ -12,7 +12,7 @@ export default function Weather(props) {
       city: response.data.name,
       date: new Date(response.data.dt * 1000),
       description: response.data.weather[0].description,
-      temperature: Math.round(response.data.main.temp),
+      temperature: response.data.main.temp,
       max: Math.round(response.data.main.temp_max),
       min: Math.round(response.data.main.temp_min),
       humidity: Math.round(response.data.main.humidity),
@@ -51,16 +51,16 @@ export default function Weather(props) {
                 onChange={handleCityChange}
               />
             </div>
-            <div className="col-2 button">
+            <div className="col-4 ms-5 button">
               <button className="search" id="searchCity">
                 Search
               </button>
             </div>
-            <div className="col-4 button">
+            {/* <div className="col-4 button">
               <button className="location" id="currentCity">
                 Current City
               </button>
-            </div>
+            </div> */}
           </div>
         </form>
         <WeatherInfo data={weatherData} />

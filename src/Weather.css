@@ -1,9 +1,6 @@
 .Weather {
   color: #fff;
-}
-
-a {
-  color: #ef5f9a;
+  max-width: 700px;
 }
 
 ul {
