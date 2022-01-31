@@ -16,7 +16,7 @@ export default function WeatherInfo(props) {
         <div className="col-6 mt-3 conditions">
           <WeatherTemperature celcius={props.data.temperature} />
           <h3>
-            <span id="max">{props.data.max}</span>º|
+            <span id="max">{props.data.max}</span>º |{" "}
             <span id="min">{props.data.min}</span>º
           </h3>
           <p>
