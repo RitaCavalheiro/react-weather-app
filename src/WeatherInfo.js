@@ -14,9 +14,8 @@ export default function WeatherInfo(props) {
         </div>
         <div className="col-4 conditions">
           <WeatherTemperature celcius={props.data.temperature} />
-
           <h3>
-            <span id="max">{props.data.max}</span>º/
+            <span id="max">{props.data.max}</span>º|
             <span id="min">{props.data.min}</span>º
           </h3>
           <p>
@@ -26,8 +25,8 @@ export default function WeatherInfo(props) {
             Wind:<span id="wind"></span> {props.data.wind}km/h
           </p>
         </div>
-        <div className="col-4 mt-5 present-weather">
-          <WeatherIcon code={props.data.icon} />
+        <div className="col-4 mt- present-weather">
+          <WeatherIcon code={props.data.icon} size={125} />
         </div>
       </div>
     </div>
