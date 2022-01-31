@@ -10,6 +10,7 @@ export default function App() {
       </div>
       <footer>
         <a
+          className="gitLink"
           href="https://github.com/RitaCavalheiro/react-weather-app"
           target="_blank"
           rel="noopener noreferrer"
